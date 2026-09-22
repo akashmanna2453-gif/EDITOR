@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKASH MANNA — Professional Video Editor &amp; Storyteller</title>
+  <meta name="description" content="Professional video editing for creators, brands and businesses. Short-form reels, YouTube videos, cinematic films, and high-converting commercial editing.">
+  <meta name="keywords" content="Video Editor, Freelance Video Editor, Short-form Editor, Reels, YouTube Editor, Cinematic Color Grading, Premiere Pro, DaVinci Resolve">
+  <meta name="author" content="Akash Manna">
+  
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AKASH MANNA — Professional Video Editor">
+  <meta property="og:description" content="I turn raw footage into stories that hit different. Short-form, YouTube, cinematic, and social media editing.">
+  <meta property="og:image" content="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630' fill='%2308080a'><rect width='1200' height='630'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%2300f2fe' font-size='64' font-family='sans-serif' font-weight='bold'>AKASH MANNA • VIDEO EDITOR</text></svg>">
+  
+  <!-- Google Fonts: Space Grotesk (Headings), Inter (Body), JetBrains Mono (Timecodes/Stats) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <!-- Custom Desktop Cursor -->
+  <div class="custom-cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="custom-cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <!-- Background Noise & Ambient Lighting Overlay -->
+  <div class="film-grain-overlay" aria-hidden="true"></div>
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Header & Sticky Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Akash Manna Portfolio Home">
+        <span class="rec-dot" aria-hidden="true"></span>
+        <span class="brand-name" id="navBrandName">AKASH MANNA</span>
+        <span class="brand-badge">EDITOR</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#comparison" class="nav-link">Before/After</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">
+          <span>START A PROJECT</span>
+          <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNav">
+          <span class="hamburger-line line-1"></span>
+          <span class="hamburger-line line-2"></span>
+          <span class="hamburger-line line-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Fullscreen Navigation Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNav" aria-hidden="true">
+    <div class="mobile-nav-content">
+      <div class="mobile-nav-meta">
+        <span class="timecode-display">[ REC • 00:00:00:00 ]</span>
+        <span class="status-indicator">AVAILABLE FOR FREELANCE</span>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#work" class="mobile-nav-link"><span class="link-num">01</span> Work</a></li>
+        <li><a href="#services" class="mobile-nav-link"><span class="link-num">02</span> Services</a></li>
+        <li><a href="#pricing" class="mobile-nav-link"><span class="link-num">03</span> Pricing</a></li>
+        <li><a href="#comparison" class="mobile-nav-link"><span class="link-num">04</span> Before / After</a></li>
+        <li><a href="#process" class="mobile-nav-link"><span class="link-num">05</span> Process</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link"><span class="link-num">06</span> Testimonials</a></li>
+        <li><a href="#faq" class="mobile-nav-link"><span class="link-num">07</span> FAQ</a></li>
+        <li><a href="#contact" class="mobile-nav-link"><span class="link-num">08</span> Contact</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="#contact" class="btn btn-primary btn-full mobile-cta-btn">
+          <span>START A PROJECT</span>
+          <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <div class="mobile-socials">
+          <a href="https://wa.me/919967590265" class="mobile-social-link" id="mobileWa" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="mailto:akash.manna2453@gmail.com" class="mobile-social-link" id="mobileEmail">Email</a>
+          <a href="#" class="mobile-social-link" id="mobileYt" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+    <!-- 6. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <!-- Animated Timeline Visual Canvas/Background -->
+      <div class="hero-timeline-bg" aria-hidden="true">
+        <div class="timeline-track track-video">
+          <span class="track-label">V1 • A-ROLL</span>
+          <div class="timeline-clip clip-1"></div>
+          <div class="timeline-clip clip-2"></div>
+          <div class="timeline-clip clip-3"></div>
+        </div>
+        <div class="timeline-track track-broll">
+          <span class="track-label">V2 • B-ROLL &amp; VFX</span>
+          <div class="timeline-clip clip-4"></div>
+          <div class="timeline-clip clip-5"></div>
+        </div>
+        <div class="timeline-track track-audio">
+          <span class="track-label">A1 • SFX &amp; SCORE</span>
+          <div class="audio-waveforms">
+            <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+            <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+            <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+            <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+          </div>
+        </div>
+        <div class="playhead-scrubber"></div>
+      </div>
+
+      <div class="container hero-container">
+        <!-- Eyebrow Tag -->
+        <div class="hero-eyebrow fade-up-init" style="--delay: 100ms">
+          <span class="eyebrow-badge">
+            <span class="pulse-point"></span>
+            VIDEO EDITOR • STORYTELLER • CREATIVE
+          </span>
+          <span class="hero-fps-tag font-mono">4K UHD • 60 FPS • REC.709</span>
+        </div>
+
+        <!-- Main Headline -->
+        <h1 class="hero-title font-heading fade-up-init" style="--delay: 250ms">
+          <span class="title-line">I TURN RAW FOOTAGE</span>
+          <span class="title-line highlight-text">INTO STORIES THAT</span>
+          <span class="title-line">HIT DIFFERENT.</span>
+        </h1>
+
+        <!-- Supporting Text -->
+        <p class="hero-subtitle fade-up-init" style="--delay: 400ms">
+          Professional video editing for creators, brands, businesses and social media. Precision cuts, retention-driven pacing, cinematic color grading, and immersive soundscapes.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions fade-up-init" style="--delay: 550ms">
+          <a href="#work" class="btn btn-primary btn-lg hero-btn">
+            <span>VIEW MY WORK</span>
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary btn-lg hero-btn">
+            <span>LET'S WORK TOGETHER</span>
+          </a>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="hero-scroll-indicator fade-up-init" style="--delay: 700ms">
+          <a href="#stats" class="scroll-link" aria-label="Scroll down to explore">
+            <span class="scroll-text">SCROLL TO EXPLORE</span>
+            <div class="scroll-mouse" aria-hidden="true">
+              <div class="scroll-wheel"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. TRUST STATISTICS -->
+    <section class="stats-section section-padding" id="stats">
+      <div class="container">
+        <div class="stats-grid" id="statsGrid">
+          <!-- Stat 1 -->
+          <div class="stat-card" data-stat-index="0">
+            <div class="stat-top">
+              <span class="stat-icon font-mono">01/</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number-wrap font-heading">
+              <span class="stat-number" data-target="50" data-suffix="+">0</span>
+            </div>
+            <p class="stat-label">Projects Edited</p>
+            <p class="stat-desc">From viral TikToks to high-production YouTube documentaries.</p>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="stat-card" data-stat-index="1">
+            <div class="stat-top">
+              <span class="stat-icon font-mono">02/</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number-wrap font-heading">
+              <span class="stat-number" data-target="20" data-suffix="+">0</span>
+            </div>
+            <p class="stat-label">Happy Clients</p>
+            <p class="stat-desc">Creators, founders, marketing agencies, and global brands.</p>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="stat-card" data-stat-index="2">
+            <div class="stat-top">
+              <span class="stat-icon font-mono">03/</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number-wrap font-heading">
+              <span class="stat-number" data-target="2" data-suffix="M+">0</span>
+            </div>
+            <p class="stat-label">Views Generated</p>
+            <p class="stat-desc">Proven organic reach with high average view duration &amp; retention.</p>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="stat-card" data-stat-index="3">
+            <div class="stat-top">
+              <span class="stat-icon font-mono">04/</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number-wrap font-heading">
+              <span class="stat-number" data-target="3" data-suffix="+">0</span>
+            </div>
+            <p class="stat-label">Years Creating</p>
+            <p class="stat-desc">Mastering storytelling, color grading, sound design &amp; rhythm.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. SHOWREEL SECTION -->
+    <section class="showreel-section section-padding" id="showreel">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>CINEMATIC HIGHLIGHTS</span>
+            <span class="eyebrow-line"></span>
+          </div>
+          <h2 class="section-title font-heading">THE SHOWREEL</h2>
+          <p class="section-subtitle">A glimpse of what happens when storytelling meets precision.</p>
+        </div>
+
+        <!-- 16:9 Cinematic Video Container -->
+        <div class="showreel-wrapper">
+          <div class="showreel-container aspect-16-9" id="showreelContainer" role="region" aria-label="Cinematic showreel video player">
+            <!-- Real HTML5 Video Player -->
+            <video class="showreel-video" id="showreelVideo" preload="metadata" playsinline loop muted>
+              <source src="https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+
+            <!-- Video Player Header Overlay -->
+            <div class="showreel-meta-bar">
+              <div class="meta-left">
+                <span class="rec-status"><span class="dot red"></span> REC</span>
+                <span class="timecode font-mono" id="showreelTimecode">00:01:48:22</span>
+              </div>
+              <div class="meta-right">
+                <button class="sound-toggle-btn font-mono" id="showreelSoundToggle" aria-label="Toggle video sound">
+                  <svg class="sound-icon-muted" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"></path><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                  <svg class="sound-icon-unmuted" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M11 5L6 9H2v6h4l5 4V5z"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                  <span id="soundBtnText">UNMUTE</span>
+                </button>
+                <span class="resolution-badge font-mono">4K UHD • 60 FPS</span>
+                <span class="color-badge font-mono">DAVINCI ACES</span>
+              </div>
+            </div>
+
+            <!-- Center Play/Pause Indicator -->
+            <div class="play-btn-circle" id="showreelPlayBtn" aria-label="Toggle play/pause">
+              <div class="play-pulse-ring"></div>
+              <svg class="play-icon" id="showreelPlayIcon" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <svg class="pause-icon" id="showreelPauseIcon" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" style="display:none;">
+                <rect x="6" y="4" width="4" height="16"></rect>
+                <rect x="14" y="4" width="4" height="16"></rect>
+              </svg>
+            </div>
+
+            <!-- Letterbox Bars -->
+            <div class="cinema-letterbox top"></div>
+            <div class="cinema-letterbox bottom"></div>
+
+            <!-- Interactive Timeline & Scrubber Bar -->
+            <div class="showreel-timeline-bar" id="showreelTimelineTrack">
+              <div class="timeline-progress" id="showreelTimelineProgress" style="width: 0%;"></div>
+              <div class="timeline-tags">
+                <span>00:00 INTRO</span>
+                <span>00:30 RETENTION HOOK</span>
+                <span>01:10 COLOR GRADE</span>
+                <span>01:45 SOUND FOLEY</span>
+                <span>02:15 OUTRO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showreel-cta-wrap text-center">
+            <button class="btn btn-outline btn-lg" id="openFullShowreelBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span>WATCH FULL CINEMA SHOWREEL</span>
+              <span class="badge-time font-mono">1080P HD</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. SERVICES SECTION -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>CAPABILITIES</span>
+          </div>
+          <h2 class="section-title font-heading">WHAT I CAN DO</h2>
+          <p class="section-subtitle">Tailored editing solutions crafted for maximum retention, emotion, and visual impact.</p>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <!-- Service 1: Short-Form -->
+          <div class="service-card" data-service="shortform">
+            <div class="service-header">
+              <span class="service-num font-mono">01</span>
+              <span class="service-tag">VIRAL PACING</span>
+            </div>
+            <h3 class="service-title font-heading">SHORT-FORM EDITING</h3>
+            <p class="service-platforms">Reels • Shorts • TikTok</p>
+            <p class="service-desc">
+              Fast-paced edits designed to stop the scroll and keep viewers watching. Hook crafting, kinetic auto-captions, sound effects, and retention optimization.
+            </p>
+            <div class="service-features">
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>3-second retention hook craft</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Kinetic captions &amp; emojis</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Multi-layer SFX &amp; sound hits</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-amount font-heading">₹499</span>
+                <span class="price-unit">/ video</span>
+              </div>
+              <a href="#contact" class="btn btn-outline btn-sm service-cta" data-prefill-type="Reel / Short">Book Edit</a>
+            </div>
+          </div>
+
+          <!-- Service 2: Long-Form -->
+          <div class="service-card" data-service="longform">
+            <div class="service-header">
+              <span class="service-num font-mono">02</span>
+              <span class="service-tag">STORYTELLING</span>
+            </div>
+            <h3 class="service-title font-heading">LONG-FORM EDITING</h3>
+            <p class="service-platforms">YouTube • Interviews • Podcasts</p>
+            <p class="service-desc">
+              Structured storytelling, clean pacing, engaging cuts and professional finishing. Multi-cam synchronization, narrative chaptering, and high retention arcs.
+            </p>
+            <div class="service-features">
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Multi-cam sync &amp; audio cleanup</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Contextual B-roll &amp; animations</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Chapter structuring &amp; music cues</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-amount font-heading">₹1,499</span>
+                <span class="price-unit">/ video</span>
+              </div>
+              <a href="#contact" class="btn btn-outline btn-sm service-cta" data-prefill-type="YouTube Video">Book Edit</a>
+            </div>
+          </div>
+
+          <!-- Service 3: Cinematic -->
+          <div class="service-card" data-service="cinematic">
+            <div class="service-header">
+              <span class="service-num font-mono">03</span>
+              <span class="service-tag">PREMIUM CINEMA</span>
+            </div>
+            <h3 class="service-title font-heading">CINEMATIC EDITING</h3>
+            <p class="service-platforms">Films • Travel • Events • Stories</p>
+            <p class="service-desc">
+              Emotion-driven editing with cinematic pacing, DaVinci Resolve color grading, custom sound design, and atmospheric visual finishing.
+            </p>
+            <div class="service-features">
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>DaVinci Resolve film color grade</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Custom foley &amp; cinematic soundscape</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>4K master render &amp; film grain</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-amount font-heading">₹2,499</span>
+                <span class="price-unit">/ project</span>
+              </div>
+              <a href="#contact" class="btn btn-outline btn-sm service-cta" data-prefill-type="Cinematic Video">Book Project</a>
+            </div>
+          </div>
+
+          <!-- Service 4: Social Media Package -->
+          <div class="service-card highlighted" data-service="package">
+            <div class="service-header">
+              <span class="service-num font-mono">04</span>
+              <span class="service-tag package-badge">MONTHLY RETAINER</span>
+            </div>
+            <h3 class="service-title font-heading">SOCIAL MEDIA PACKAGE</h3>
+            <p class="service-platforms">Weekly Content Retainer for Creators</p>
+            <p class="service-desc">
+              Consistent editing for creators and brands who need content every week. Streamlined workflow, dedicated turnaround, and collaborative ideation.
+            </p>
+            <div class="service-features">
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>8-10 Short-form or 4 Long-form edits</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Priority 24–48 hr fast turnaround</span>
+              </div>
+              <div class="feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Dedicated WhatsApp/Slack channel</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-amount font-heading">₹4,999</span>
+                <span class="price-unit">/ month</span>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm service-cta" data-prefill-type="Monthly Editing">Get Package</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-custom-banner text-center">
+          <p class="banner-text">Looking for something specific or custom production scaling?</p>
+          <a href="#contact" class="btn btn-secondary" data-prefill-type="Other">
+            <span>GET A CUSTOM QUOTE</span>
+            <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. PRICING SECTION -->
+    <section class="pricing-section section-padding" id="pricing">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>TRANSPARENT RATES</span>
+            <span class="eyebrow-line"></span>
+          </div>
+          <h2 class="section-title font-heading">SIMPLE PRICING.<br>NO SURPRISES.</h2>
+          <p class="section-subtitle">Straightforward packages with zero hidden fees. Choose your tier to get started.</p>
+        </div>
+
+        <div class="pricing-grid" id="pricingGrid">
+          <!-- Tier 1: Starter -->
+          <div class="pricing-card" data-tier="starter">
+            <div class="pricing-card-header">
+              <h3 class="tier-name font-heading">STARTER</h3>
+              <p class="tier-for">Perfect for Instagram Reels, YouTube Shorts &amp; basic social media content.</p>
+              <div class="tier-cost">
+                <span class="currency">₹</span>
+                <span class="amount font-heading" data-price="499">499</span>
+                <span class="billing">/ project</span>
+              </div>
+            </div>
+            <div class="pricing-card-body">
+              <p class="features-label">Includes:</p>
+              <ul class="pricing-features-list">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Basic cuts &amp; trim</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Dynamic captions &amp; text</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Background music sync</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Simple transitions &amp; zooms</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Basic color correction</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> 1 free revision</li>
+              </ul>
+            </div>
+            <div class="pricing-card-footer">
+              <a href="#contact" class="btn btn-outline btn-full" data-prefill-budget="₹500 – ₹1,000" data-prefill-type="Reel / Short">GET STARTED</a>
+            </div>
+          </div>
+
+          <!-- Tier 2: Creator (Highlighted) -->
+          <div class="pricing-card highlighted" data-tier="creator">
+            <div class="popular-badge">
+              <span class="badge-spark">✦</span> MOST POPULAR
+            </div>
+            <div class="pricing-card-header">
+              <h3 class="tier-name font-heading">CREATOR</h3>
+              <p class="tier-for">Ideal for ambitious creators, YouTube channels &amp; branded campaigns.</p>
+              <div class="tier-cost">
+                <span class="currency">₹</span>
+                <span class="amount font-heading" data-price="1499">1,499</span>
+                <span class="billing">/ project</span>
+              </div>
+            </div>
+            <div class="pricing-card-body">
+              <p class="features-label">Includes:</p>
+              <ul class="pricing-features-list">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced retention editing</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Motion graphics &amp; callouts</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Professional styled captions</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Multi-track sound design &amp; SFX</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Cinematic color grading</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> B-roll curation &amp; integration</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> 2 free revisions</li>
+              </ul>
+            </div>
+            <div class="pricing-card-footer">
+              <a href="#contact" class="btn btn-primary btn-full" data-prefill-budget="₹1,000 – ₹2,500" data-prefill-type="YouTube Video">CHOOSE CREATOR</a>
+            </div>
+          </div>
+
+          <!-- Tier 3: Pro -->
+          <div class="pricing-card" data-tier="pro">
+            <div class="pricing-card-header">
+              <h3 class="tier-name font-heading">PRO</h3>
+              <p class="tier-for">For high-end commercials, documentary films &amp; premium productions.</p>
+              <div class="tier-cost">
+                <span class="currency">₹</span>
+                <span class="amount font-heading" data-price="2999">2,999</span>
+                <span class="billing">/ project</span>
+              </div>
+            </div>
+            <div class="pricing-card-body">
+              <p class="features-label">Includes:</p>
+              <ul class="pricing-features-list">
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Premium cinematic editing</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced 2D/3D motion graphics</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> DaVinci Resolve color mastery</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced sound foley &amp; mix</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Custom animation &amp; visual effects</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Full story restructuring</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> 3 free revisions + 4K delivery</li>
+              </ul>
+            </div>
+            <div class="pricing-card-footer">
+              <a href="#contact" class="btn btn-outline btn-full" data-prefill-budget="₹2,500 – ₹5,000" data-prefill-type="Cinematic Video">GO PRO</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-custom-box">
+          <div class="custom-box-left">
+            <h4 class="font-heading">Need something different?</h4>
+            <p>Custom packages, agency subcontracts, and multi-video volume discounts are available.</p>
+          </div>
+          <div class="custom-box-right">
+            <a href="#contact" class="btn btn-secondary" data-prefill-budget="Custom" data-prefill-type="Other">REQUEST CUSTOM QUOTE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. PORTFOLIO (SELECTED WORK) -->
+    <section class="portfolio-section section-padding" id="work">
+      <div class="container">
+        <div class="section-header-flex">
+          <div class="section-header-left">
+            <div class="section-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>CURATED PROJECTS</span>
+            </div>
+            <h2 class="section-title font-heading">SELECTED WORK</h2>
+            <p class="section-subtitle">Real results, high watch-time, and award-grade visual polish.</p>
+          </div>
+
+          <!-- Portfolio Filter Buttons -->
+          <div class="portfolio-filter-bar" role="tablist" aria-label="Portfolio categories">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">ALL</button>
+            <button class="filter-btn" data-filter="shortform" role="tab" aria-selected="false">SHORT-FORM</button>
+            <button class="filter-btn" data-filter="youtube" role="tab" aria-selected="false">YOUTUBE</button>
+            <button class="filter-btn" data-filter="cinematic" role="tab" aria-selected="false">CINEMATIC</button>
+            <button class="filter-btn" data-filter="commercial" role="tab" aria-selected="false">COMMERCIAL</button>
+          </div>
+        </div>
+
+        <!-- Portfolio Projects Grid -->
+        <div class="portfolio-grid" id="portfolioGrid" aria-live="polite">
+          <!-- Rendered dynamically by script.js with rich fallback -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. BEFORE / AFTER COMPARISON SLIDER -->
+    <section class="comparison-section section-padding" id="comparison">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>COLOR &amp; FINISHING MASTERY</span>
+            <span class="eyebrow-line"></span>
+          </div>
+          <h2 class="section-title font-heading">SEE THE DIFFERENCE</h2>
+          <p class="section-subtitle">Drag the slider to see how flat, raw camera Log footage transforms into an emotionally charged cinematic final grade.</p>
+        </div>
+
+        <div class="comparison-container-wrap">
+          <div class="comparison-slider-container" id="comparisonSlider" tabindex="0" role="slider" aria-label="Before and after color grade comparison slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+            <!-- After (Final Edit) Layer - Full Width Base -->
+            <div class="comparison-image-layer layer-after">
+              <div class="cinematic-scene graded-scene">
+                <div class="scene-overlay graded-look"></div>
+                <div class="scene-vignette"></div>
+                <div class="scene-sun-flare"></div>
+                <div class="scene-particles"></div>
+              </div>
+              <span class="comparison-tag tag-after">FINAL EDIT • REC.709 GRADE</span>
+            </div>
+
+            <!-- Before (Raw Footage) Layer - Clipped View -->
+            <div class="comparison-image-layer layer-before" id="beforeLayer" style="width: 50%;">
+              <div class="cinematic-scene raw-scene">
+                <div class="scene-overlay raw-log-look"></div>
+              </div>
+              <span class="comparison-tag tag-before">RAW S-LOG3 FOOTAGE</span>
+            </div>
+
+            <!-- Draggable Handle Bar -->
+            <div class="comparison-handle" id="comparisonHandle" style="left: 50%;">
+              <div class="handle-line top"></div>
+              <div class="handle-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+                <span class="handle-divider"></span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+              <div class="handle-line bottom"></div>
+            </div>
+          </div>
+
+          <div class="comparison-instruction text-center font-mono">
+            <span>◄ DRAG OR USE ARROW KEYS TO COMPARE LOG VS FINAL MASTER ►</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. EDITING PROCESS -->
+    <section class="process-section section-padding" id="process">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>THE WORKFLOW</span>
+          </div>
+          <h2 class="section-title font-heading">FROM RAW TO FINAL</h2>
+          <p class="section-subtitle">A streamlined 4-step collaborative process ensuring fast delivery and zero friction.</p>
+        </div>
+
+        <div class="process-timeline-grid">
+          <!-- Step 1 -->
+          <div class="process-step-card" data-step="1">
+            <div class="step-num-wrap font-heading">
+              <span class="step-num">01</span>
+              <span class="step-line" aria-hidden="true"></span>
+            </div>
+            <div class="step-content">
+              <h3 class="step-title font-heading">DISCOVER</h3>
+              <p class="step-desc">
+                Understand the footage, brand identity, target audience, and retention objectives. We establish the narrative arc, hook strategy, and creative references.
+              </p>
+              <div class="step-tag font-mono">STEP 01 • BRIEF &amp; FOOTAGE INGEST</div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step-card" data-step="2">
+            <div class="step-num-wrap font-heading">
+              <span class="step-num">02</span>
+              <span class="step-line" aria-hidden="true"></span>
+            </div>
+            <div class="step-content">
+              <h3 class="step-title font-heading">EDIT</h3>
+              <p class="step-desc">
+                Build the assembly cut, tighten pacing, eliminate filler, sync multi-cams, and sculpt the narrative rhythm so every second holds viewer engagement.
+              </p>
+              <div class="step-tag font-mono">STEP 02 • ROUGH CUT &amp; STORY SPINAL</div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step-card" data-step="3">
+            <div class="step-num-wrap font-heading">
+              <span class="step-num">03</span>
+              <span class="step-line" aria-hidden="true"></span>
+            </div>
+            <div class="step-content">
+              <h3 class="step-title font-heading">POLISH</h3>
+              <p class="step-desc">
+                DaVinci Resolve color grading, multi-track audio foley &amp; SFX, kinetic text styling, motion graphics, and atmospheric film grain additions.
+              </p>
+              <div class="step-tag font-mono">STEP 03 • COLOR, SFX &amp; MOTION</div>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-step-card" data-step="4">
+            <div class="step-num-wrap font-heading">
+              <span class="step-num">04</span>
+            </div>
+            <div class="step-content">
+              <h3 class="step-title font-heading">DELIVER</h3>
+              <p class="step-desc">
+                Final quality review, export in high-bitrate platform-ready formats (4K ProRes/H.265), and frictionless delivery via Frame.io or Google Drive.
+              </p>
+              <div class="step-tag font-mono">STEP 04 • MASTER EXPORT &amp; REVISIONS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. TOOLS SECTION -->
+    <section class="tools-section section-padding" id="tools">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>PRODUCTION STACK</span>
+            <span class="eyebrow-line"></span>
+          </div>
+          <h2 class="section-title font-heading">TOOLS I USE</h2>
+          <p class="section-subtitle">Industry-standard post-production software for high-precision edits.</p>
+        </div>
+
+        <div class="tools-grid">
+          <!-- Tool 1: Premiere Pro -->
+          <div class="tool-card">
+            <div class="tool-icon-box premiere-color">
+              <span class="tool-symbol">Pr</span>
+            </div>
+            <div class="tool-info">
+              <h4 class="tool-name font-heading">Premiere Pro</h4>
+              <p class="tool-role">Primary NLE &amp; Story Assembly</p>
+            </div>
+          </div>
+
+          <!-- Tool 2: After Effects -->
+          <div class="tool-card">
+            <div class="tool-icon-box ae-color">
+              <span class="tool-symbol">Ae</span>
+            </div>
+            <div class="tool-info">
+              <h4 class="tool-name font-heading">After Effects</h4>
+              <p class="tool-role">VFX &amp; Motion Graphics</p>
+            </div>
+          </div>
+
+          <!-- Tool 3: DaVinci Resolve -->
+          <div class="tool-card">
+            <div class="tool-icon-box davinci-color">
+              <span class="tool-symbol">Dv</span>
+            </div>
+            <div class="tool-info">
+              <h4 class="tool-name font-heading">DaVinci Resolve</h4>
+              <p class="tool-role">Color Grading &amp; ACES Master</p>
+            </div>
+          </div>
+
+          <!-- Tool 4: CapCut -->
+          <div class="tool-card">
+            <div class="tool-icon-box capcut-color">
+              <span class="tool-symbol">Cc</span>
+            </div>
+            <div class="tool-info">
+              <h4 class="tool-name font-heading">CapCut Pro</h4>
+              <p class="tool-role">Kinetic Typography &amp; Socials</p>
+            </div>
+          </div>
+
+          <!-- Tool 5: Photoshop -->
+          <div class="tool-card">
+            <div class="tool-icon-box ps-color">
+              <span class="tool-symbol">Ps</span>
+            </div>
+            <div class="tool-info">
+              <h4 class="tool-name font-heading">Photoshop</h4>
+              <p class="tool-role">Thumbnails &amp; Asset Prep</p>
+            </div>
+          </div>
+
+          <!-- Tool 6: Audition -->
+          <div class="tool-card">
+            <div class="tool-icon-box audition-color">
+              <span class="tool-symbol">Au</span>
+            </div>
+            <div class="tool-info">
+              <h4 class="tool-name font-heading">Audition</h4>
+              <p class="tool-role">Audio Cleanup &amp; Foley Mixing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. TESTIMONIALS SECTION -->
+    <section class="testimonials-section section-padding" id="testimonials">
+      <div class="container">
+        <div class="section-header-flex">
+          <div class="section-header-left">
+            <div class="section-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>PROOF OF WORK</span>
+            </div>
+            <h2 class="section-title font-heading">CLIENT FEEDBACK</h2>
+            <p class="section-subtitle">What creators, directors, and brands say about our collaborations.</p>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="carousel-nav-controls" aria-label="Testimonial carousel controls">
+            <button class="carousel-btn prev-btn" id="testimonialPrevBtn" aria-label="Previous testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button class="carousel-btn next-btn" id="testimonialNextBtn" aria-label="Next testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="testimonials-slider-wrap">
+          <div class="testimonials-track" id="testimonialsTrack">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+              <div class="quote-mark">“</div>
+              <p class="testimonial-quote">
+                Alex turned our unorganized 4-hour raw interview into a punchy, viral YouTube documentary. Pacing was unreal and our retention rate jumped by 38% compared to previous episodes.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar-badge font-heading">MV</div>
+                <div class="author-details">
+                  <h4 class="author-name font-heading">Marcus Vance</h4>
+                  <p class="author-role">Founder @ TechWave (450K Subs)</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+              <div class="quote-mark">“</div>
+              <p class="testimonial-quote">
+                The fastest and most reliable editor I've ever worked with. The short-form reels he edited hit 1.8M views in the first 48 hours. He understands the hook game deeply.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar-badge font-heading">ER</div>
+                <div class="author-details">
+                  <h4 class="author-name font-heading">Elena Rostova</h4>
+                  <p class="author-role">Fitness &amp; Lifestyle Creator</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+              <div class="quote-mark">“</div>
+              <p class="testimonial-quote">
+                The color grading and sound design completely elevated our commercial film from looking like home footage to high-budget cinema. Delivered right on deadline.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar-badge font-heading">DK</div>
+                <div class="author-details">
+                  <h4 class="author-name font-heading">David Khen</h4>
+                  <p class="author-role">Creative Director @ Nomad Studios</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="testimonial-card">
+              <div class="quote-mark">“</div>
+              <p class="testimonial-quote">
+                Working with Alex on our monthly retainer was the best decision for our brand. Clean sound design, precise pacing, and effortless communication every single week.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar-badge font-heading">SP</div>
+                <div class="author-details">
+                  <h4 class="author-name font-heading">Samira Patel</h4>
+                  <p class="author-role">Host @ Founder Diaries Podcast</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16. WHY WORK WITH ME -->
+    <section class="why-me-section section-padding" id="whyme">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>THE ADVANTAGE</span>
+          </div>
+          <h2 class="section-title font-heading">WHY ME?</h2>
+          <p class="section-subtitle">More than just cuts and transitions — a creative partner invested in your content's growth.</p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Block 1 -->
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="why-title font-heading">STORY FIRST</h3>
+            <p class="why-desc">Every cut should serve the narrative. We never add empty flashy transitions that distract from the message and emotional core.</p>
+          </div>
+
+          <!-- Block 2 -->
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="why-title font-heading">FAST TURNAROUND</h3>
+            <p class="why-desc">Professional work delivered strictly on or ahead of time. Fast communication so your content publishing schedule stays uninterrupted.</p>
+          </div>
+
+          <!-- Block 3 -->
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <h3 class="why-title font-heading">ATTENTION TO DETAIL</h3>
+            <p class="why-desc">Every frame, audio transition, sound effect, and micro-keyframe is meticulously refined for seamless rhythm and polish.</p>
+          </div>
+
+          <!-- Block 4 -->
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="why-title font-heading">CREATIVE COLLABORATION</h3>
+            <p class="why-desc">Your vision + my editing craft = standout content. We brainstorm angles, hooks, and creative finishing together as a team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 17. FAQ SECTION (ACCORDION) -->
+    <section class="faq-section section-padding" id="faq">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>GOT QUESTIONS?</span>
+            <span class="eyebrow-line"></span>
+          </div>
+          <h2 class="section-title font-heading">FREQUENTLY ASKED QUESTIONS</h2>
+          <p class="section-subtitle">Everything you need to know about working together and the editing process.</p>
+        </div>
+
+        <div class="faq-accordion-container" id="faqAccordion">
+          <!-- FAQ 1 -->
+          <div class="faq-item" data-faq="1">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-1">
+              <span class="faq-question font-heading">1. How long does an edit take?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </span>
+            </button>
+            <div class="faq-answer-panel" id="faq-ans-1" role="region">
+              <div class="faq-answer-content">
+                <p>Turnaround depends on project scope. Short-form reels (Reels/Shorts/TikToks) are typically delivered within 24 to 48 hours. Long-form YouTube videos usually take 3 to 5 business days, while complex cinematic projects or commercials take 5 to 7 days. Rush deliveries can also be arranged on request.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item" data-faq="2">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-2">
+              <span class="faq-question font-heading">2. What footage should I send?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </span>
+            </button>
+            <div class="faq-answer-panel" id="faq-ans-2" role="region">
+              <div class="faq-answer-content">
+                <p>You can send raw camera files (MP4, MOV, ProRes, BRAW, S-Log, etc.) along with any specific brand assets (logos, fonts, style references) via Google Drive, Dropbox, WeTransfer, or Frame.io. If you only have phone footage, that works great too as long as it is well-lit and recorded cleanly.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item" data-faq="3">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-3">
+              <span class="faq-question font-heading">3. Do you provide captions?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </span>
+            </button>
+            <div class="faq-answer-panel" id="faq-ans-3" role="region">
+              <div class="faq-answer-content">
+                <p>Yes! All short-form reels and videos can include modern animated kinetic captions with dynamic word-by-word highlights, emojis, and brand colors tailored for high viewer retention and sound-off scrollers.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item" data-faq="4">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-4">
+              <span class="faq-question font-heading">4. Can you edit YouTube videos?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </span>
+            </button>
+            <div class="faq-answer-panel" id="faq-ans-4" role="region">
+              <div class="faq-answer-content">
+                <p>Absolutely. I specialize in high-retention YouTube editing — including vlog-style pacing, multi-cam podcast syncing, tech reviews, talking head tutorials, and mini-documentaries with motion graphic callouts and licensed music curation.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item" data-faq="5">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-5">
+              <span class="faq-question font-heading">5. Do you provide revisions?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </span>
+            </button>
+            <div class="faq-answer-panel" id="faq-ans-5" role="region">
+              <div class="faq-answer-content">
+                <p>Yes, all packages include dedicated revision rounds (1 round for Starter, 2 rounds for Creator, and 3 rounds for Pro). Revisions cover pacing adjustments, sound balance, text tweaks, and clip swaps to ensure the final piece matches your vision 100%.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item" data-faq="6">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-6">
+              <span class="faq-question font-heading">6. Can I request custom editing?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </span>
+            </button>
+            <div class="faq-answer-panel" id="faq-ans-6" role="region">
+              <div class="faq-answer-content">
+                <p>Yes! If your project requires multi-day documentary editing, complex 3D VFX integration, batch high-volume social clips, or on-demand weekly retainer support, we can construct a tailored package that fits your exact workflow and budget.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item" data-faq="7">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-7">
+              <span class="faq-question font-heading">7. What payment methods do you accept?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </span>
+            </button>
+            <div class="faq-answer-panel" id="faq-ans-7" role="region">
+              <div class="faq-answer-content">
+                <p>We accept UPI (GPay, PhonePe, Paytm), Bank Transfer (NEFT/IMPS), Razorpay, PayPal, and Stripe for international clients. Work generally commences with a 50% deposit, with the final 50% due upon project completion and watermark-free master release.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 18. FINAL DRAMATIC CTA -->
+    <section class="final-cta-section section-padding">
+      <div class="container">
+        <div class="final-cta-card">
+          <div class="cta-backdrop-glow" aria-hidden="true"></div>
+          <div class="cta-content text-center">
+            <span class="cta-timecode font-mono">[ READY TO SHOOT &amp; CUT ]</span>
+            <h2 class="cta-title font-heading">
+              GOT FOOTAGE?<br>
+              <span class="highlight-text">LET'S MAKE SOMETHING GREAT.</span>
+            </h2>
+            <p class="cta-desc">
+              Send me your footage, idea, or project brief. Let's turn it into content worth watching and sharing.
+            </p>
+            <div class="cta-buttons">
+              <a href="#contact" class="btn btn-primary btn-lg">
+                <span>START A PROJECT</span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <a href="#work" class="btn btn-secondary btn-lg">
+                <span>VIEW MY WORK</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 19. CONTACT SECTION -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="contact-layout-grid">
+          <!-- Contact Left: Info & Quick Channels -->
+          <div class="contact-info-col">
+            <div class="section-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>GET IN TOUCH</span>
+            </div>
+            <h2 class="section-title font-heading">LET'S WORK TOGETHER</h2>
+            <p class="contact-lead-text">
+              Have a project in mind, need ongoing monthly editing, or want a custom quote? Fill out the brief and I'll respond within 24 hours.
+            </p>
+
+            <!-- Direct Contact Channels -->
+            <div class="direct-channels-list">
+              <!-- Email -->
+              <a href="mailto:akash.manna2453@gmail.com" class="channel-card" id="contactEmailCard">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">EMAIL DIRECTLY</span>
+                  <span class="channel-val font-mono" id="configEmail">akash.manna2453@gmail.com</span>
+                </div>
+                <span class="channel-action font-mono">COPY ↗</span>
+              </a>
+
+              <!-- WhatsApp -->
+              <a href="https://wa.me/919967590265" target="_blank" rel="noopener" class="channel-card" id="contactWaCard">
+                <div class="channel-icon wa-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">WHATSAPP CHAT</span>
+                  <span class="channel-val font-mono" id="configWa">+91 99675 90265</span>
+                </div>
+                <span class="channel-action font-mono">CHAT ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Right: Form -->
+          <div class="contact-form-col">
+            <div class="contact-card-wrap">
+              <form class="project-request-form" id="projectForm" novalidate>
+                <div class="form-header">
+                  <h3 class="form-title font-heading">PROJECT BRIEF</h3>
+                  <span class="form-badge font-mono">QUICK INTAKE</span>
+                </div>
+
+                <!-- Name Field -->
+                <div class="form-group">
+                  <label for="clientName" class="form-label">Your Name <span class="req">*</span></label>
+                  <input type="text" id="clientName" name="name" class="form-input" placeholder="e.g. Marcus Vance" required autocomplete="name">
+                  <span class="field-error" id="nameError">Please enter your name</span>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-group">
+                  <label for="clientEmail" class="form-label">Email Address <span class="req">*</span></label>
+                  <input type="email" id="clientEmail" name="email" class="form-input" placeholder="e.g. marcus@creator.com" required autocomplete="email">
+                  <span class="field-error" id="emailError">Please enter a valid email address</span>
+                </div>
+
+                <!-- Form Row: Project Type & Budget -->
+                <div class="form-row">
+                  <div class="form-group col-half">
+                    <label for="projectType" class="form-label">Project Type <span class="req">*</span></label>
+                    <div class="select-wrapper">
+                      <select id="projectType" name="projectType" class="form-select" required>
+                        <option value="" disabled selected>Select type</option>
+                        <option value="Reel / Short">Reel / Short</option>
+                        <option value="YouTube Video">YouTube Video</option>
+                        <option value="Cinematic Video">Cinematic Video</option>
+                        <option value="Event Video">Event Video</option>
+                        <option value="Commercial">Commercial</option>
+                        <option value="Monthly Editing">Monthly Editing</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <span class="field-error" id="typeError">Please select a project type</span>
+                  </div>
+
+                  <div class="form-group col-half">
+                    <label for="projectBudget" class="form-label">Budget Range</label>
+                    <div class="select-wrapper">
+                      <select id="projectBudget" name="budget" class="form-select">
+                        <option value="" disabled selected>Select budget</option>
+                        <option value="₹500 – ₹1,000">₹500 – ₹1,000</option>
+                        <option value="₹1,000 – ₹2,500">₹1,000 – ₹2,500</option>
+                        <option value="₹2,500 – ₹5,000">₹2,500 – ₹5,000</option>
+                        <option value="₹5,000+">₹5,000+</option>
+                        <option value="Custom">Custom</option>
+                      </select>
+                      <svg class="select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group">
+                  <label for="projectMessage" class="form-label">Project Details &amp; Footage Link <span class="req">*</span></label>
+                  <textarea id="projectMessage" name="message" rows="4" class="form-textarea" placeholder="Tell me about your footage, deadlines, style references, or any specific ideas..." required></textarea>
+                  <span class="field-error" id="messageError">Please enter project details (min 10 characters)</span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-full submit-btn" id="submitFormBtn">
+                  <span class="btn-text">SEND PROJECT REQUEST</span>
+                  <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  <span class="spinner-loader" aria-hidden="true"></span>
+                </button>
+              </form>
+
+              <!-- Success Feedback Card (Hidden by default) -->
+              <div class="form-success-card" id="formSuccessCard" aria-hidden="true">
+                <div class="success-icon-wrap">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <h3 class="success-title font-heading">REQUEST RECEIVED!</h3>
+                <p class="success-msg">
+                  Thanks for reaching out! I have received your project details and will review your footage brief. Expect a response in your inbox within 24 hours.
+                </p>
+                <div class="success-details-box" id="successDetailsBox">
+                  <!-- Filled dynamically -->
+                </div>
+                <button type="button" class="btn btn-outline btn-sm" id="resetFormBtn">Send Another Message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 20. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo" aria-label="Akash Manna Portfolio Home">
+            <span class="rec-dot" aria-hidden="true"></span>
+            <span class="brand-name" id="footerBrandName">AKASH MANNA</span>
+          </a>
+          <p class="footer-tagline">Video Editor • Storyteller • Creator</p>
+          <p class="footer-sub">High-impact video editing crafted for digital creators, founders, and modern brands.</p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading font-heading">NAVIGATION</h4>
+          <ul class="footer-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#comparison">Before/After</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-col">
+          <h4 class="footer-heading font-heading">SOCIAL CHANNELS</h4>
+          <ul class="footer-links social-links-list">
+            <li>
+              <a href="https://wa.me/919967590265" target="_blank" rel="noopener" id="footerWa">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                <span>WhatsApp</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:akash.manna2453@gmail.com" id="footerEmail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>Email</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener" id="footerYt">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                <span>YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener" id="footerLi">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text" id="footerCopyright">© 2026 Akash Manna. All Rights Reserved.</p>
+        <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top of page">
+          <span>BACK TO TOP</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PORTFOLIO PROJECT DETAIL MODAL -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close project modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-inner-content">
+        <!-- Modal Media Screen Container -->
+        <div class="modal-player-container">
+          <div class="modal-screen" id="modalScreenArea">
+            <!-- Real HTML5 Video Player for Projects -->
+            <video class="modal-video-element" id="modalVideoElement" playsinline loop controls poster="">
+              <source id="modalVideoSource" src="https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <!-- Modal Project Information -->
+        <div class="modal-details-body">
+          <div class="modal-meta-row">
+            <span class="modal-category-badge" id="modalCategory">SHORT-FORM</span>
+            <span class="modal-client font-mono" id="modalClient">Client: Apex Fitness</span>
+          </div>
+
+          <h3 class="modal-title font-heading" id="modalProjectTitle">Apex Fitness Viral Campaign</h3>
+
+          <div class="modal-grid-info">
+            <div class="info-block">
+              <span class="info-label">CHALLENGE &amp; STORY</span>
+              <p class="info-text" id="modalDescription">
+                Transform raw gym phone footage into high-energy kinetic reels engineered for peak viewer retention and algorithmic push.
+              </p>
+            </div>
+            
+            <div class="info-block">
+              <span class="info-label">TOOLS USED</span>
+              <div class="modal-tools-tags" id="modalTools">
+                <span class="tool-tag">Premiere Pro</span>
+                <span class="tool-tag">After Effects</span>
+                <span class="tool-tag">DaVinci Resolve</span>
+              </div>
+            </div>
+
+            <div class="info-block result-block">
+              <span class="info-label">KEY RESULT</span>
+              <p class="info-result font-heading" id="modalResult">+1.8M Views • 78% Avg Watch Time</p>
+            </div>
+          </div>
+
+          <div class="modal-footer-action">
+            <a href="#contact" class="btn btn-primary btn-full modal-cta-btn" id="modalHireBtn">
+              <span>INQUIRE ABOUT SIMILAR EDIT</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOWREEL CINEMA MODAL -->
+  <div class="modal-backdrop" id="showreelModal" role="dialog" aria-modal="true" aria-labelledby="showreelModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-lg">
+      <button class="modal-close-btn" id="showreelModalCloseBtn" aria-label="Close showreel modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="modal-inner-content cinema-view">
+        <div class="modal-cinema-header">
+          <div class="cinema-stream-title font-heading" id="showreelModalTitle">AKASH MANNA • 2026 CINEMATIC SHOWREEL</div>
+          <div class="cinema-stream-meta font-mono">DIRECTED &amp; EDITED BY AKASH MANNA • 4K 60FPS • MASTER CUT</div>
+        </div>
+        <div class="showreel-cinema-frame aspect-16-9">
+          <!-- Real HTML5 Video In Cinema Modal -->
+          <video class="modal-cinema-video" id="modalCinemaVideo" preload="auto" playsinline controls loop>
+            <source src="https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div class="toast-notification" id="toastNotice" role="status" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
+    <span class="toast-message" id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
